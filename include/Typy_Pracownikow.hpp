@@ -35,7 +35,7 @@ void print() const {
   std::cout<<"Inżynier/ka: "<< name << "\t" << wydzial <<std::endl;
   
 }
-static const unsigned int CI = 14;
+static const unsigned int CI = 40;
 
 private:
 std::string wydzial;
@@ -52,7 +52,7 @@ Mkt(int followss): follows{followss}, Pracownik(){
 void print() const{
    std::cout<<"Marketer/ka: "<< name << "\t" << follows <<std::endl;
 }
-static const unsigned int CMkt =12;
+static const unsigned int CMkt =31;
 private:
 int follows;
 };
@@ -68,7 +68,7 @@ Mag(bool obsl_widll): obsl_widl{obsl_widll}, Pracownik(){
 void print() const {
    std::cout<<"Magazynier/ka: "<< name << "\t" << obsl_widl <<std::endl;
 }
-static const unsigned int CMag=20;
+static const unsigned int CMag=24;
 private:
 bool obsl_widl;
 };
@@ -84,7 +84,7 @@ Rob (double buut): but{buut}, Pracownik(){
 void print() const{
   std::cout<<"Robotnik/czka: "<< name << "\t" << but <<std::endl;
 }
-static const unsigned int CR=15;
+static const unsigned int CR=27;
 private:
 double but;
 };
